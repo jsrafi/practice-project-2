@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+  }
+
+*
+{
+    margin: 0;
+}
+
+.direction-flex
+{
+    display: flex;
+}
+.ul-li
+{
+    list-style: none;
+    gap: 40px;
+}
+.ul-li a
+{
+    text-decoration: none;
+    color: rgba(66, 66, 66, 1);
+    font-size: 1.12rem;
+    font-weight: 500;
+}
+.navigation
+{
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.navigation h3
+{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+header
+{
+    background-color: rgba(236, 144, 35, 0.14);
+}
+.banner
+{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.hero
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.hero img
+{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.banner p
+{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 1rem;
+    color: rgba(114, 114, 114, 1);
+}
+.banner button 
+{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    font-size: 1.22rem;
+    font-weight: 600;
+}
+.banner h1
+{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+/* features section */
+.features-card
+{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.features
+{
+   gap: 110px; 
+}
+main>section
+{
+    width: 1200px;
+    margin: 100px auto 0;
+}
+.features-title
+{
+    font-size: 3rem;
+    font-weight: 700;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    margin-bottom: 20px;
+}
+.features img
+{
+    width: 37.5rem;
+}
+.features-p
+{
+    color: rgba(114, 114, 114, 1);
+    margin-bottom: 30px;
+}
+.features-card-title
+{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.features-card-p
+{
+    color: rgba(114, 114, 114, 1); 
+}
+.card-btn
+{
+    padding: 40px 37px;
+    background-color: rgba(255, 144, 14, 1);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-left: -90px;
+    margin-top: -120px;
+}
+.card-btn-spn1
+{
+ font-size: 3rem;
+ font-weight: 700;
+}
+.card-btn-spn2
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
